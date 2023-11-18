@@ -1,0 +1,89 @@
+.reservation-container {
+    max-width: 6000px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 20px;
+    /* background-repeat: no-repeat; */
+    background-image: url(https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&w=400);
+  }
+  
+  .calendar-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-top: 20px;
+    
+    
+    min-height:100px ;
+
+  }
+  .calendar-container Calendar {
+    color: #040404;
+  }
+  .unselected-time-slot{
+    color:white;
+  }
+
+  .selected-time-slot{
+    background-color: bisque;
+  }
+  
+  .time-slots-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+
+  
+  .reservation-container button.time-slot-button {
+    max-width: 400px;
+    background-color:rgba(0, 0, 0, 0.101) ;
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-bottom: solid white ;
+    border-left: solid white 0.9px ;
+    /* color: bisque; */
+    border-radius: 20px;
+    
+  }
+  
+  .reservation-container button:hover {
+    background-color: #040404;
+  }
+  
+  .reservation-container button.selected {
+    background-color: #3498db;
+    color: #fff;
+
+  }
+  .button-reserve-button{
+    background-color: green;
+    width: 100%;
+    /* padding: 5px; */
+    margin: 20px;
+    border-bottom: solid white ;
+    border-left: solid white 0.9px ;
+    max-width: 150px;
+    width: 100%;
+    padding: 10px;
+    color: bisque;
+    border-radius: 20px;
+  }
+  
+  
+    
+ 
+  
+  

@@ -1,0 +1,77 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.signup-form {
+  max-width: 400px;
+  background-color:rgba(0, 0, 0, 0.655) ;
+  width: 100%;
+  padding: 20px;
+  /* color:bisque; */
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border-bottom: solid white ;
+  border-left: solid white 0.9px ;
+  
+}
+.signup-form p {
+  color: bisque;
+  text-decoration: none;
+
+}
+.signup-form a{
+  text-decoration: none;
+  color: gold;
+  font-weight: bolder;
+}
+
+.button{
+  text-decoration: none;
+  padding: 9px;
+  width: 50%;
+  border-radius: 19px;
+  border: none;
+  background-color: green;
+  font-size: 18px;
+  color:black;
+  font-weight: bolder;
+  
+}
+
+input{
+  padding: 10px;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid white 0.9px;
+  border-radius: 18px;
+  color: bisque;
+
+}
+label{
+  color: bisque;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+h1,h2{
+  color: gold;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family:cursive
+}
+/* Add any additional styles as needed */

@@ -1,0 +1,83 @@
+/* NavBar.css */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.612);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: -10px;
+  backdrop-filter: blur(10px);
+  z-index: 100; /* Adjust the z-index as needed */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Limit the width of the content if needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.List {
+  list-style: none;
+  display: flex;
+}
+
+.List li {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-right: 45px;
+  transition: 0.17678698s;
+}
+
+.List li:hover {
+  transform: scale(1.2);
+  color: #ffd700; /* Change color on hover as needed */
+}
+
+.List li:active {
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.navbar-container h1 {
+  color: #ffd700;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for small devices */
+
+  .navbar-container {
+    flex-direction: column; /* Change to a column layout on small screens */
+  }
+
+  .List {
+    margin-top: 20px; /* Add some spacing between list items */
+  }
+
+  /* Additional styles for small devices */
+  .navbar-container h1 {
+    font-size: 1.5em;
+  }
+
+  .List li {
+    font-size: medium;
+  }
+}
+
+/* Additional styles for larger screens */
+@media only screen and (min-width: 1200px) {
+  .navbar-container {
+    font-size: 1.2em; /* Adjust font size for larger screens */
+  }
+
+  .List li {
+    font-size: 1rem; /* Adjust font size for larger screens */
+  }
+}
+
+/* You may need to adjust other styles based on your design */

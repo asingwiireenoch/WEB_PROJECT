@@ -1,0 +1,78 @@
+/* Home.css */
+.Container {
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=600');
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(9px);/* Add background blur */
+    
+  }
+  
+  .home {
+    padding-left: -14px;
+  }
+  
+  .span1 {
+    color: bisque;
+  }
+  
+  .img1 {
+    width: 70%;
+    height: 100%;
+    margin-left: -100px;
+    border-radius: 20px 34px 45px 16px;
+    box-shadow: 0 0px 100px 30px;
+    transition: 0.2s ease-in-out;
+    object-fit: cover; /* Make the image cover the entire container */
+    /* Adjust the opacity if needed */
+  }
+  
+  .Heading {
+    flex: 1;
+    color: beige;
+    display: block;
+    align-items: center;
+    padding-right: 40px;
+    margin-right: 120px;
+    border-radius: 20px;
+    background-color: rgb(63, 48, 11);
+    box-shadow: rgb(0,0,0) 0 0px 80px 30px;
+    padding-left: 40px;
+    backdrop-filter: blur(10px);
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-left: -40px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .heading3 {
+    font-size: 35px;
+    color: bisque; /* Adjust heading color as needed */
+  }
+  .Heading:hover{
+    transform: scale(1.02987);
+    box-shadow: rgb(0,0,0) 0 0px 80px 40px;
+  }
+  .img1:hover{
+    transform: scale(1.0765);
+    box-shadow: 0 0px 100px 40px;
+  }
+
+.signUp{
+     background-color: bisque;
+     border: 0px;font-size: 17px;
+     color: rgb(38, 29, 5);
+     font-weight: bold;
+     border-radius: 10px;
+     padding: 8px;
+     transition: 0.065758768s ease-in-out;
+
+}
+.signUp:hover{
+    font-weight: bolder;
+    background-color: rgb(214, 169, 114); 
+}
+.signUp:active{
+    transform: scale(0.9);
+}

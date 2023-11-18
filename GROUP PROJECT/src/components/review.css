@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, input, textarea, form, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #9e7b09;
+     /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=400);
+  }
+  
+  header {
+    background-color: #011816;
+    color: #d4c309;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(237, 14, 14, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #30d004;
+    color: #131717;
+    cursor: pointer;
+  }
+  
+@keyframes zoomIn {
+from {
+  transform: scale(0);
+  opacity: 0;
+}
+to {
+  transform: scale(1);
+  opacity: 1;
+}
+}
+  
+  /* Style review items */
+  .review {
+    border-bottom: 1px solid #ea0909;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    opacity: 0.7;
+    display: block;
+    
+  }
+  
+   
+    /* Style star rating icons (e.g., using font icons, SVG, or other methods) */
+  
+  
