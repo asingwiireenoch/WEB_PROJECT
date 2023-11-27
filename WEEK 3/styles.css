@@ -1,0 +1,14 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-bottom: dotted;
+    border-top:dotted;
+    background-color: rgb(25, 244, 244);
+
+}
+h2{
+    background-color: aqua;
+}
+body{
+    background:linear-gradient(to right,rgb(93, 198, 239),lightgreen)
+}
